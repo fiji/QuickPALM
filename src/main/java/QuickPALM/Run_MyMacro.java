@@ -1,17 +1,11 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
-import java.lang.*;
-import java.io.*;
-import java.net.*;
+import ij.IJ;
+import ij.plugin.PlugIn;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class Run_MyMacro implements PlugIn 
 {

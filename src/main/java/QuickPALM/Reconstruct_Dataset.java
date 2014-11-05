@@ -1,15 +1,10 @@
 package QuickPALM;
 
-import ij.*;
-import ij.io.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.io.DirectoryChooser;
+import ij.plugin.PlugIn;
+import ij.process.ImageProcessor;
 
 public class Reconstruct_Dataset implements PlugIn 
 {

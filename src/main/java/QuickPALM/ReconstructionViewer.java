@@ -1,14 +1,13 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.measure.ResultsTable;
+import ij.plugin.filter.GaussianBlur;
+import ij.process.ByteProcessor;
+import ij.process.ColorProcessor;
+import ij.process.ImageProcessor;
+import ij.process.ShortProcessor;
 
 class ReconstructionViewer
 {

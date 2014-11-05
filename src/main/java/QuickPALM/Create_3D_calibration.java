@@ -1,15 +1,15 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
-import java.util.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.gui.Plot;
+import ij.measure.CurveFitter;
+import ij.measure.ResultsTable;
+import ij.plugin.PlugIn;
+import ij.process.ImageProcessor;
+
+import java.awt.Rectangle;
+import java.util.Random;
 
 /** This plugin creates a 3D calibration table by observing the width and height
  * change of beads over depth (caused by astigmatism). This table can be then be

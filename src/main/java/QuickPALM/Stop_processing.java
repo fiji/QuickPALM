@@ -1,7 +1,6 @@
 package QuickPALM;
 
 import ij.IJ;
-import ij.gui.GenericDialog;
 import ij.plugin.PlugIn;
 
 /** This plugin halts the Analyse Particles threads. */

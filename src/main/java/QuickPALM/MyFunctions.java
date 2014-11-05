@@ -1,14 +1,11 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.measure.ResultsTable;
+import ij.plugin.filter.Analyzer;
+import ij.plugin.filter.GaussianBlur;
+import ij.process.ImageProcessor;
 
 class MyFunctions
 {

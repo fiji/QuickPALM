@@ -1,15 +1,11 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
-import java.lang.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.gui.Plot;
+import ij.plugin.PlugIn;
+
+import java.awt.Rectangle;
 
 public class Correct_Drift implements PlugIn 
 {

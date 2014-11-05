@@ -1,19 +1,11 @@
 package QuickPALM;
 
 import ij.IJ;
-import ij.gui.GenericDialog;
+import ij.ImagePlus;
+import ij.io.SaveDialog;
 import ij.plugin.PlugIn;
-
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
-import ij.io.*;
+import ij.process.FloatProcessor;
+import ij.process.ImageProcessor;
 
 public class Save_particles_table2img implements PlugIn {
     	

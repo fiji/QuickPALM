@@ -1,15 +1,9 @@
 package QuickPALM;
 
-import ij.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
-import java.lang.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.plugin.PlugIn;
+import ij.process.ImageProcessor;
 
 /** This plugin detectes sub-diffraction particles in a sequence of images, it
  * is the main plugin for the QuickPALM package.

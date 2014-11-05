@@ -2,16 +2,13 @@
 
 package QuickPALM;
 
-import ij.*;
-import ij.io.*;
-import ij.measure.*;
-import ij.plugin.*;
-import ij.plugin.filter.*;
-import ij.plugin.frame.*;
-import ij.process.*;
-import ij.gui.*;
-import ij.measure.CurveFitter.*;
-import java.awt.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.gui.GenericDialog;
+import ij.gui.Roi;
+import ij.io.DirectoryChooser;
+import ij.io.OpenDialog;
+import ij.plugin.frame.RoiManager;
 
 class MyDialogs
 {
