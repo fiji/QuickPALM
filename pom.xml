@@ -15,6 +15,61 @@
 	<name>plugins/QuickPALM_.jar</name>
 	<description />
 
+	<developers>
+		<developer>
+			<name>Ricardo Henriques</name>
+			<url>http://imagej.net/User:NanoJ</url>
+			<roles>
+				<role>founder</role>
+				<role>lead</role>
+				<role>support</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>chalkie666</id>
+			<name>Daniel James White</name>
+			<url>http://imagej.net/User:White</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+		<developer>
+			<id>hinerm</id>
+			<name>Mark Hiner</name>
+			<url>http://imagej.net/User:Hinerm</url>
+			<roles>
+				<role>maintainer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Johannes Schindelin</name>
+			<url>http://imagej.net/User:Schindelin</url>
+			<properties><id>dscho</id></properties>
+		</contributor>
+		<contributor>
+			<name>Jan Eglinger</name>
+			<url>http://imagej.net/User:Eglinger</url>
+			<properties><id>imagejan</id></properties>
+		</contributor>
+		<contributor>
+			<name>Mark Longair</name>
+			<url>http://imagej.net/User:Mark</url>
+			<properties><id>mhl</id></properties>
+		</contributor>
+	</contributors>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/QuickPALM</connection>
 		<developerConnection>scm:git:git@github.com:fiji/QuickPALM</developerConnection>
