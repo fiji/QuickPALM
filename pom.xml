@@ -97,8 +97,8 @@
 		<url>https://github.com/fiji/QuickPALM/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/QuickPALM/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/QuickPALM</url>
 	</ciManagement>
 
 	<properties>
