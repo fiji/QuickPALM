@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>QuickPALM_</artifactId>
-	<version>1.1.2-SNAPSHOT</version>
+	<version>1.1.2</version>
 
 	<name>QuickPALM</name>
 	<description>QuickPALM plugin for Fiji.</description>
@@ -89,7 +89,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/QuickPALM</connection>
 		<developerConnection>scm:git:git@github.com:fiji/QuickPALM</developerConnection>
-		<tag>HEAD</tag>
+		<tag>QuickPALM_-1.1.2</tag>
 		<url>https://github.com/fiji/QuickPALM</url>
 	</scm>
 	<issueManagement>
