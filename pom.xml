@@ -87,7 +87,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/QuickPALM</connection>
+		<connection>scm:git:https://github.com/fiji/QuickPALM</connection>
 		<developerConnection>scm:git:git@github.com:fiji/QuickPALM</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/QuickPALM</url>
